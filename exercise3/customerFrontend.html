@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise3</title>
+    <script src="formChecker.js" charset="utf-8"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+      <h1>Welcome to my Store!</h1>
+      <div class='userInfo'>
+      <form  onsubmit="checkForm();" action="customerBackend.php" method="post" >
+        <label for="username">Username:</label>
+        <input type="text" id="username" name='username' ><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name='password'>
+        </div>
+        <br><br><br>
+
+        <div class='items'>
+        <label for='item1'>Dr. Pepper: ($2)</label>
+        <input type='number' id='item1' name='item1' value=0><br>
+        <label for='item2'>Chicken Pot Pie: ($8)</label>
+        <input type='number' id='item2' value=0 name='item2'><br>
+        <label for='item3'>Rotisserie Chicken: ($14)</label>
+        <input type='number' id='item3' value=0 name='item3'>
+        </div>
+        <br><br><br>
+
+
+
+        <div class='shippingOptions'>
+        <p>Choose Shipping Option:</p>
+        <label for='shipping1'>Free 7 Day Shipping  </label>
+        <input type='radio' id='shipping1' name='shipping' value=0 checked><br>
+        <label for='shipping2'>$50 Overnight Shipping</label>
+        <input type='radio' id='shipping2' name='shipping' value=50><br>
+        <label for='shipping3'>$5 3 Day Shipping</label>
+        <input type='radio' id='shipping3' name='shipping' value=5>
+        </div>
+        <br><br><br>
+
+        <div class='buttons'>
+        <button type='reset' id='resetButt'>Reset</button><br><br>
+        <button type='submit' onsubmit="checkForm()" id='submitButt'>Submit Order</button>
+        </div>
+
+
+
+
+      </body>
+
+</html>
