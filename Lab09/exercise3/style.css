@@ -1,0 +1,50 @@
+body{
+  background-color: #c7e1ec;
+}
+
+h1{
+  margin-left: auto;
+}
+
+div.userInfo{
+  border-style: solid;
+  border-color:  #1d2a42;
+  width: 400px;
+  height: 125px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+div.items{
+  font-size: 22;
+  margin-left: 650px;
+  margin-top: 50px;
+  border-style: double;
+  border-color: #1d2a42;
+  width: 450px;
+  padding: 10px;
+}
+
+div.shippingOptions{
+  border-style: solid;
+  border-color: #1d2a42;
+  width: 400px;
+  padding: 10px;
+
+  margin-top: 100px;
+}
+
+div.buttons{
+  border-style:solid;
+  border-color: #1d2a42;
+  width: 300px;
+  padding: 20px;
+}
+
+table.receipt{
+  border-style: solid;
+  border-color: #1d2a42;
+}
+td{
+  border: 1px solid black;
+}
